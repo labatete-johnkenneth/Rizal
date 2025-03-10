@@ -1,0 +1,141 @@
+@font-face  {
+  font-family: "Lexend Bold";
+  src: url("Fonts/Lexend-Bold.ttf");
+}
+
+@font-face  {
+  font-family: "Lexend Regular";
+  src: url("Fonts/static/Lexend-Regular.ttf");
+}
+
+@font-face  {
+  font-family: "Bebas Neue";
+  src: url("Fonts/BebasNeue.ttf");
+}
+
+h1  {
+  color: #E8D7FF;
+  font-family: "Bebas Neue";
+  text-shadow: 2px 2px #dfffd6;
+}
+
+span  {
+  font-family: "Lexend Bold";
+  background: linear-gradient(to bottom right, #E8D7FF, #FFD3E8, #FFD7D5, #F3FFE1, #DFFFD6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+
+.block-quote  {
+  background-color: rgba(243, 255, 225, .4);
+  border-left-style: solid;
+  border-color: #FFD3E8;
+  border-width: 1rem;
+}
+
+p  {
+  color: #FFD7D5;
+  font-family: "Lexend Regular";
+  text-shadow: 2px 2px #DFFFD6;
+}
+
+.bg  {
+  background-color: #000;
+}
+
+.box-shadow  {
+  box-shadow: 0px 4px 10px 0px #9E81FE;
+}
+
+.pindutan  {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 56px;
+	padding: 8px 32px;
+	font-size: 24px;
+	font-weight: 500;
+	border-radius: 16px;
+	border-top: 2px solid #323232;
+	border-right: 2px solid #323232;
+	border-bottom: 6px solid #323232;
+	border-left: 2px solid #323232;
+	background: linear-gradient(to bottom right, #E8D7FF 20%, #FFD3E8 40%, #FFD7D5 60%, #F3FFE1 80%, #DFFFD6 100%);
+	box-shadow: 0px 4px 10px 0px #9E81FE;
+	cursor: pointer;
+	transition: all 0.24s;
+	perspective: 300px;
+}
+
+.pindutan:active {
+	border-bottom: 2px solid #323232;
+	box-shadow: 0px 0 4px 0px #9E81FE;
+}
+
+.pindutan span {
+	transform: rotateX(20deg);
+	transition: all 0.24s;
+}
+
+.pindutan:active span {
+	transform: rotateX(0);
+}
+
+.scrollable-text  {
+  max-height: 192px;
+  overflow-y: auto;
+}
+
+hr  {
+  opacity: 0%;
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slide-panel {
+  max-height: 100vh;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.slide-thumbnail {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.slide-thumbnail img {
+  width: 100%;
+  display: block;
+}
+
+.slide-thumbnail:hover {
+  border-color: #0078d4;
+}
+
+#main-slide {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.hidden  {
+  display: none;
+}
+
+#new-content  {
+  height: 100vh;
+}
+
+.cornell-notes h4  {
+  font-family: "Lexend Bold";
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      overflow: hidden;
+    }
+  </style>
+  <title>Touch Me Not</title>
+</head>
+<body>
+  <div id="area"></div>
+  <script src="jszip.min.js"></script>
+  <script src="epub.min.js"></script>
+  <script>
+    var book = ePub("Books/Touch Me Not by José Rizal.epub");
+    var rendition = book.renderTo("area", { flow: "paginated", width: "100%", height: "100vh", spread: "auto", allowScriptedContent: true });
+    rendition.display();
+    document.addEventListener("keydown", function(event) {
+      if (event.key === "ArrowLeft") {
+	rendition.prev();
+      } else if (event.key === "ArrowRight") {
+	rendition.next();
+      }
+    });
+  </script>
+</body>
+</html>
