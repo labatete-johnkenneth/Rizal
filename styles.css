@@ -63,6 +63,22 @@ p  {
   }
 }
 
+.col-2 .pindutan  {
+  cursor: url(Cursors/light/cursor/person.cur), pointer !important;
+}
+
+.col-2 .pindutan:active  {
+  cursor: url(Cursors/light/cursor/person.cur), pointer !important;
+}
+
+.col-2 .pindutan span  {
+  cursor: url(Cursors/light/cursor/person.cur), pointer !important;
+}
+
+.col-2 .pindutan:active span  {
+  cursor: url(Cursors/light/cursor/person.cur), pointer !important;
+}
+
 .pindutan  {
 	display: flex;
 	align-items: center;
@@ -161,8 +177,8 @@ body {
   cursor: url(Cursors/light/cursor/handwriting.cur), auto;
 }
 
-.slide-thumbnail img, #main-slide{
-  cursor: url(Cursors/light/cursor/link.cur), pointer;
+.slide-thumbnail img, #main-slide, .carousel-control-prev, .carousel-control-next, .modal-header button, .modal-footer button  {
+  cursor: url(Cursors/light/cursor/link.cur), pointer !important;
 }
 
 ::-webkit-scrollbar  {
@@ -183,14 +199,10 @@ body {
   border-radius: 1rem;
 }
 
-.carousel-control-prev {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
-  background-repeat: no-repeat;
-  background-position: center;
+#mobile-carousel img  {
+  height: 30vh;
 }
 
-.carousel-control-next {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
-  background-repeat: no-repeat;
-  background-position: center;
+h1, h4, p  {
+  cursor: url(Cursors/light/cursor/beam.cur), auto;
 }
