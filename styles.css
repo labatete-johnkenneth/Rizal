@@ -14,14 +14,14 @@
 }
 
 h1  {
-  color: #E8D7FF;
+  color: #820BBA;
   font-family: "Bebas Neue";
-  text-shadow: 2px 2px #dfffd6;
+  text-shadow: 2px 2px #DFFFD6;
 }
 
 span  {
   font-family: "Lexend Bold";
-  background: linear-gradient(to bottom right, #E8D7FF, #FFD3E8, #FFD7D5, #F3FFE1, #DFFFD6);
+  background: linear-gradient(to bottom right, #E8D7FF, #820B8A, #03045E, #68EDC6, #B2F7EF);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -36,9 +36,8 @@ span  {
 }
 
 p  {
-  color: #FFD7D5;
+  color: #03045E;
   font-family: "Lexend Regular";
-  text-shadow: 2px 2px #DFFFD6;
 }
 
 .bg  {
@@ -205,4 +204,17 @@ body {
 
 h1, h4, p  {
   cursor: url(Cursors/light/cursor/beam.cur), auto;
+}
+
+.justify-text  {
+  text-align: justify;
+}
+
+button span  {
+  font-family: "Lexend Bold";
+  background: linear-gradient(to bottom right, #E8D7FF 20%, #FFD3E8 40%, #FFD7D5 60%, #F3FFE1 80%, #DFFFD6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
 }
