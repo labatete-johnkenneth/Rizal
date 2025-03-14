@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const thumbnails = document.querySelectorAll(".slide-thumbnail");
   const mainSlide = document.getElementById("main-slide");
-  let currentSlideIndex = 0; // Track the current slide index
-  let isInteractionStarted = false; // Flag to track initial interaction
+  let currentSlideIndex = 0;
+  let isInteractionStarted = false;
   const slides = Array.from(thumbnails).map((thumbnail) => thumbnail.querySelector("img").src);
   function updateMainSlide(index) {
     if (index >= 0 && index < slides.length) {

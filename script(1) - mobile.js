@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const mainSlide = document.getElementById('main-slide');
+  const mainSlide = document.getElementById('main-slide-mobile');
   const slides = document.querySelectorAll('.slide-thumbnail');
   let currentSlideIndex = 0;
   function updateMainSlide(index) {
@@ -13,7 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
   let touchEndY = 0;
   mainSlide.addEventListener('touchstart', function(event) {
     touchStartY = event.changedTouches[0].screenY;
-  });
+    event.preventDefault();
+  }, { passive: false });
+  mainSlide.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+  }, { passive: false });
   mainSlide.addEventListener('touchend', function(event) {
     touchEndY = event.changedTouches[0].screenY;
     handleSwipe();
