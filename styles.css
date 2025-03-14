@@ -213,3 +213,8 @@ button span  {
   color: transparent;
   text-shadow: none;
 }
+
+#new-content-mobile  {
+  max-height: 30vh;
+  overflow-y: auto;
+}
