@@ -169,6 +169,8 @@ body {
 
 .cornell-notes  {
   cursor: url(Cursors/light/cursor/handwriting.cur), auto;
+  max-height: 90vh;
+  overflow-y: scroll;
 }
 
 .slide-thumbnail img, #main-slide, .carousel-control-prev, .carousel-control-next, .modal-header button, .modal-footer button  {
@@ -215,6 +217,6 @@ button span  {
 }
 
 #new-content-mobile  {
-  max-height: 30vh;
+  max-height: 80vh;
   overflow-y: auto;
 }
