@@ -217,6 +217,6 @@ button span  {
 }
 
 #new-content-mobile  {
-  max-height: 80vh;
+  max-height: 100vh;
   overflow-y: auto;
 }
