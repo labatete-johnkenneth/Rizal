@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       h1: "Touch Me Not",
       h4: "(Noli Me Tángere)",
-      p: "In more than a century since its appearance, José Riza's Noli Me Tangere has become widely known as the great novel of the Philippines. A passionate love story set against the ugly political backdrop of repression, torture, and murder, \"The Noli,\" as it is called in the Philippines, was the first major artistic manifestation of Asian resistance to European colonialism, and Rizal became a guiding conscience and martyr for the revolution that would subsequently rise up in the Spanish province.",
+      p: "In more than a century since its appearance, José Rizal's Noli Me Tangere has become widely known as the great novel of the Philippines. A passionate love story set against the ugly political backdrop of repression, torture, and murder, \"The Noli,\" as it is called in the Philippines, was the first major artistic manifestation of Asian resistance to European colonialism, and Rizal became a guiding conscience and martyr for the revolution that would subsequently rise up in the Spanish province.",
       buttonText: "Download",
       buttonLink: "Books/Touch Me Not by José Rizal.epub"
     },
