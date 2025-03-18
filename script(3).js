@@ -1,5 +1,5 @@
 const buttons = document.querySelectorAll('.button');
-const audioUrl = "https://white-mariellen-36.tiiny.site/click_effect-86995.mp3";
+const audioUrl = "Sounds/Click.mp3";
 buttons.forEach(button => {
   button.onclick = function () {
     const audio = new Audio(audioUrl);
